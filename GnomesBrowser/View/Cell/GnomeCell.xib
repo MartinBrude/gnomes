@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Light.otf">
+            <string>SFProText-Light</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GnomeCell" rowHeight="494" id="KGk-i7-Jjw" customClass="GnomeCell" customModule="GnomesBrowser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="513"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="512.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="NT8-cb-P7B" userLabel="Container View">
+                        <rect key="frame" x="9" y="13" width="350" height="486.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="xw8-v3-irM">
+                                <rect key="frame" x="8" y="7.5" width="334" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xw8-v3-irM" secondAttribute="height" multiplier="300:169" id="6jg-cD-8R3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Gnome name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-CY-yNP" userLabel="Gnome Name">
+                                <rect key="frame" x="16" y="227" width="145" height="28"/>
+                                <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="24"/>
+                                <color key="textColor" red="0.13893" green="0.27689999999999998" blue="0.41955999999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weY-hv-sZh">
+                                <rect key="frame" x="16" y="263" width="28.5" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="City" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhy-mE-QgQ">
+                                <rect key="frame" x="16" y="294" width="28.5" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFN-r6-bRT">
+                                <rect key="frame" x="16" y="325" width="49.5" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWa-vl-I9e">
+                                <rect key="frame" x="16" y="356" width="47" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Hair color" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWb-mn-GjI">
+                                <rect key="frame" x="16" y="387" width="69.5" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvr-Un-TlF">
+                                <rect key="frame" x="16" y="387" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Professions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjg-ae-uGP">
+                                <rect key="frame" x="16" y="418" width="84" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Light" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Friends" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMf-BG-P0C">
+                                <rect key="frame" x="16" y="449" width="53.5" height="19"/>
+                                <fontDescription key="fontDescription" name="SFProText-Light" family="SF Pro Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xjg-ae-uGP" secondAttribute="trailing" constant="16" id="1mY-Ua-4jR"/>
+                            <constraint firstItem="Vhy-mE-QgQ" firstAttribute="leading" secondItem="weY-hv-sZh" secondAttribute="leading" id="2xf-vt-I8N"/>
+                            <constraint firstItem="TFN-r6-bRT" firstAttribute="top" secondItem="Vhy-mE-QgQ" secondAttribute="bottom" constant="12" id="43f-w3-bXy"/>
+                            <constraint firstItem="xw8-v3-irM" firstAttribute="leading" secondItem="NT8-cb-P7B" secondAttribute="leading" constant="8" id="7dD-t6-gPs"/>
+                            <constraint firstItem="kWb-mn-GjI" firstAttribute="leading" secondItem="SWa-vl-I9e" secondAttribute="leading" id="A4h-OL-9xU"/>
+                            <constraint firstItem="zi6-CY-yNP" firstAttribute="leading" secondItem="NT8-cb-P7B" secondAttribute="leading" constant="16" id="Bq3-vC-cUn"/>
+                            <constraint firstItem="kMf-BG-P0C" firstAttribute="leading" secondItem="xjg-ae-uGP" secondAttribute="leading" id="JSN-KW-SGu"/>
+                            <constraint firstItem="xjg-ae-uGP" firstAttribute="leading" secondItem="weY-hv-sZh" secondAttribute="leading" id="KmE-rC-upH"/>
+                            <constraint firstItem="SWa-vl-I9e" firstAttribute="leading" secondItem="TFN-r6-bRT" secondAttribute="leading" id="LA8-ue-4T6"/>
+                            <constraint firstItem="SWa-vl-I9e" firstAttribute="top" secondItem="TFN-r6-bRT" secondAttribute="bottom" constant="12" id="MZZ-KA-e7O"/>
+                            <constraint firstItem="kMf-BG-P0C" firstAttribute="top" secondItem="xjg-ae-uGP" secondAttribute="bottom" constant="12" id="NOz-Kq-454"/>
+                            <constraint firstItem="xw8-v3-irM" firstAttribute="top" secondItem="NT8-cb-P7B" secondAttribute="top" constant="7.5" id="Q2n-QK-RyM"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kMf-BG-P0C" secondAttribute="bottom" constant="8" id="S7h-19-efS"/>
+                            <constraint firstItem="Vhy-mE-QgQ" firstAttribute="top" secondItem="weY-hv-sZh" secondAttribute="bottom" constant="12" id="X67-xh-Zwg"/>
+                            <constraint firstItem="weY-hv-sZh" firstAttribute="top" secondItem="zi6-CY-yNP" secondAttribute="bottom" constant="8" id="Xcl-EI-JK5"/>
+                            <constraint firstItem="zi6-CY-yNP" firstAttribute="top" secondItem="xw8-v3-irM" secondAttribute="bottom" constant="32" id="bo4-RT-725"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="weY-hv-sZh" secondAttribute="trailing" constant="8" id="cvn-hZ-T6s"/>
+                            <constraint firstItem="xjg-ae-uGP" firstAttribute="top" secondItem="kWb-mn-GjI" secondAttribute="bottom" constant="12" id="f8d-Ue-Bck"/>
+                            <constraint firstItem="xw8-v3-irM" firstAttribute="centerX" secondItem="NT8-cb-P7B" secondAttribute="centerX" id="fem-5o-Tcu"/>
+                            <constraint firstItem="kWb-mn-GjI" firstAttribute="top" secondItem="SWa-vl-I9e" secondAttribute="bottom" constant="12" id="gCP-kw-km7"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xw8-v3-irM" secondAttribute="trailing" constant="8" id="gGU-xK-KoB"/>
+                            <constraint firstItem="weY-hv-sZh" firstAttribute="leading" secondItem="zi6-CY-yNP" secondAttribute="leading" id="itj-WQ-hBd"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zi6-CY-yNP" secondAttribute="trailing" constant="8" id="qqX-XC-g55"/>
+                            <constraint firstItem="TFN-r6-bRT" firstAttribute="leading" secondItem="Vhy-mE-QgQ" secondAttribute="leading" id="zSu-1j-OFl"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kMf-BG-P0C" secondAttribute="trailing" constant="8" id="ze4-Sj-usf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NT8-cb-P7B" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="QZ5-Hr-ETg"/>
+                    <constraint firstItem="NT8-cb-P7B" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.95" id="RJb-Zt-T4a"/>
+                    <constraint firstItem="NT8-cb-P7B" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="RyL-jZ-bgm"/>
+                    <constraint firstItem="NT8-cb-P7B" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.95" id="kfE-PI-enL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cityLabel" destination="Vhy-mE-QgQ" id="NRJ-lL-AmV"/>
+                <outlet property="friendsLabel" destination="kMf-BG-P0C" id="EmB-x2-dGu"/>
+                <outlet property="gnomeAgeLabel" destination="weY-hv-sZh" id="qyJ-aV-Ia5"/>
+                <outlet property="gnomeImageView" destination="xw8-v3-irM" id="Df5-Pe-V80"/>
+                <outlet property="gnomeNameLabel" destination="zi6-CY-yNP" id="IfH-GF-Y2c"/>
+                <outlet property="hairColorLabel" destination="kWb-mn-GjI" id="XIv-sx-Aya"/>
+                <outlet property="heightLabel" destination="SWa-vl-I9e" id="TQS-b0-gVe"/>
+                <outlet property="professionsLabel" destination="xjg-ae-uGP" id="Ng0-2S-SnB"/>
+                <outlet property="weightLabel" destination="TFN-r6-bRT" id="UK4-EQ-xra"/>
+            </connections>
+            <point key="canvasLocation" x="145.59999999999999" y="227.13643178410797"/>
+        </tableViewCell>
+    </objects>
+</document>

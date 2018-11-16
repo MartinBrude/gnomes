@@ -10,5 +10,11 @@ target 'GnomesBrowser' do
   pod 'Kingfisher' 
   pod 'Swinject' 
   pod 'SwinjectStoryboard' 
+  pod 'ZMSwiftRangeSlider', '~> 0.1.7'
+
+  target 'GnomesBrowserTests' do
+    inherit! :search_paths
+  pod 'SwinjectStoryboard' 
+  end
 
 end

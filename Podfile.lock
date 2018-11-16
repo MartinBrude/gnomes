@@ -4,12 +4,14 @@ PODS:
   - Swinject (2.5.0)
   - SwinjectStoryboard (2.1.0):
     - Swinject (~> 2.5)
+  - ZMSwiftRangeSlider (0.1.7)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - Kingfisher
   - Swinject
   - SwinjectStoryboard
+  - ZMSwiftRangeSlider (~> 0.1.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -17,13 +19,15 @@ SPEC REPOS:
     - Kingfisher
     - Swinject
     - SwinjectStoryboard
+    - ZMSwiftRangeSlider
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
   SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
+  ZMSwiftRangeSlider: d6dcf4a3c5ece9ff82c52e517201c97d2e4c2a41
 
-PODFILE CHECKSUM: 6142589e88d5eebc97f2a4502015b263672aac71
+PODFILE CHECKSUM: ab61ca3020fc950cd2705e95d6c4f91e3537a91c
 
 COCOAPODS: 1.5.3

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB9F5A8D7EA187C8B18BBC6B1784E980"
+               BlueprintIdentifier = "E21D414AD7B6E3EB991F0E5D44A91002"
                BuildableName = "Pods_GnomesBrowser.framework"
                BlueprintName = "Pods-GnomesBrowser"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FB9F5A8D7EA187C8B18BBC6B1784E980"
+            BlueprintIdentifier = "E21D414AD7B6E3EB991F0E5D44A91002"
             BuildableName = "Pods_GnomesBrowser.framework"
             BlueprintName = "Pods-GnomesBrowser"
             ReferencedContainer = "container:Pods.xcodeproj">
